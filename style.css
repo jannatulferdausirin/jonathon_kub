@@ -1,0 +1,383 @@
+/* all common css start here  */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* all common css end here */
+/* banner css done */
+.banner {
+  background-image: url(images/banner_one.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 400px;
+}
+/* .overly{
+ padding: 400px;
+  width: 800px;
+  
+} */
+
+.banner_navbar {
+  padding: 40px;
+  width: 96%;
+  background-color: rgba(0, 0, 0, 0.375);
+  position: absolute;
+  top: 0;
+  left: 0%;
+  display: inline-block;
+}
+.logo img {
+  float: left;
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  margin-top: 10px;
+}
+
+.menu {
+  float: left;
+  position: absolute;
+  right: 20%;
+  top: 15%;
+  padding-top: 15px;
+}
+.menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+.menu ul li a:hover {
+  color: rgb(49, 138, 239);
+}
+.menu ul li a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: aliceblue;
+}
+/* center text align css done */
+.banner_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+.banner_text h1 {
+  font-size: 38px;
+  font-family: serif;
+}
+.banner_text h3 {
+  margin-top: 15px;
+  font-family: "Dosis";
+  text-align: center;
+  font-size: 36px;
+  color: rgb(187, 191, 194);
+}
+.banner_text p {
+  margin-top: 10px;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
+.jonathon {
+  text-align: center;
+  font-family: "Dosis";
+  margin-top: 50px;
+}
+.what_services {
+  margin-top: 50px;
+  display: inline-block;
+}
+.landscape {
+  float: left;
+  height: 350px;
+  width: 350px;
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid rgb(244, 239, 239);
+  border-radius: 5px;
+}
+.advertorial {
+  float: left;
+  height: 350px;
+  width: 350px;
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid rgb(244, 239, 239);
+  border-radius: 5px;
+}
+.conceptual {
+  float: left;
+  height: 350px;
+  width: 350px;
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid rgb(244, 239, 239);
+  border-radius: 5px;
+}
+/* latest instagram css done here */
+.latest_instagram {
+  height: 600px;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  position: relative;
+}
+.latest_instagram h3 {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.latest_instagram img {
+  width: 475px;
+}
+
+.one {
+  float: left;
+  /* position: absolute; */
+  /* left: 0%;
+  top: 20%; */
+  /* width: 200px;
+  height: 350px; */
+}
+.two {
+  float: left;
+  /* position: absolute; */
+  /* top: 20%; */
+  /* left: 25%; */
+}
+.three {
+  float: left;
+  /* position: absolute; */
+  /* top: 20%; */
+  /* left: 50%; */
+}
+.four {
+  float: left;
+  /* position: absolute; */
+  /* top: 20%; */
+  /* left: 60%; */
+}
+.latest_instagram button {
+  position: absolute;
+  bottom: 5%;
+  left: 45%;
+  padding: 10px 25px;
+  background-color: transparent;
+  color: rgb(247, 249, 251);
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+/* from the journal css section start here */
+.from_the_journal {
+  display: inline-block;
+  margin-top: 100px;
+  padding-left: 15%;
+  height: 500px;
+  width: 100%;
+  font-family: "Dosis", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+.from_the_journal h2 {
+  padding-left: 30%;
+  padding-bottom: 20px;
+}
+.pallentesque {
+  float: left;
+  height: 400px;
+  width: 380px;
+  border: 2px solid rgb(224, 219, 219);
+  margin: 30px;
+  padding: 30px 10px;
+  background-color: #fcfbfb;
+  border-radius: 10px;
+}
+.pallentesque h3,
+p {
+  padding-bottom: 20px;
+}
+.pallentesque h4 {
+  padding-top: 15px;
+  text-decoration: underline 2px rgb(0, 170, 255);
+}
+.malsuada h3,
+p {
+  padding-bottom: 20px;
+}
+.malsuada h4 {
+  padding-top: 15px;
+  text-decoration: underline 2px rgb(0, 170, 255);
+}
+.purus_justo h3,
+p {
+  padding-bottom: 20px;
+}
+.purus_justo h4 {
+  padding-top: 15px;
+  text-decoration: underline 2px rgb(0, 170, 255);
+}
+
+.malsuada {
+  float: left;
+  height: 400px;
+  width: 380px;
+  border: 2px solid rgb(224, 219, 219);
+  margin: 30px;
+  padding: 30px 10px;
+  background-color: #fcfbfb;
+  border-radius: 10px;
+}
+.purus_justo {
+  float: left;
+  height: 400px;
+  width: 380px;
+  border: 2px solid rgb(224, 219, 219);
+  margin: 30px;
+  padding: 30px 10px;
+
+  background-color: #fcfbfb;
+  border-radius: 10px;
+}
+
+/* about me section css start here */
+.about_me {
+  margin-top: 170px;
+  padding-left: 20%;
+  height: 500px;
+  width: 1200px;
+  margin-bottom: 70px;
+}
+.about_me_left {
+  height: 350px;
+  width: 550px;
+  background-color: #fcfbfb;
+  padding: 10px;
+  /* border: 2px solid rgb(224, 219, 219); */
+  border-radius: 10px;
+  margin: 10px;
+  float: left;
+}
+.about_me_left h3 {
+  padding-left: 15px;
+}
+.left {
+  float: left;
+  padding: 20px;
+}
+.left_text {
+  margin: 15px;
+}
+.left_text h4 {
+  padding-bottom: 20px;
+  line-height: 20px;
+}
+.left_text p {
+  line-height: 20px;
+}
+.about_me_right {
+  height: 350px;
+  width: 550px;
+  background-color: #fcfbfb;
+  padding: 10px;
+  /* border: 2px solid rgb(224, 219, 219); */
+  border-radius: 10px;
+  margin: 10px;
+  float: left;
+}
+.about_me_right h3 {
+  padding: 10px;
+}
+.icon {
+  float: left;
+  padding: 20px 10px;
+  margin-right: 15px;
+}
+
+.photography h4,
+p {
+  line-height: 20px;
+ 
+}
+.motion_video h4,
+p {
+  line-height: 20px;
+}
+.photo_retouching h4,
+p {
+  line-height: 20px;
+}
+/* footer section css here
+ */
+.footer {
+  height: 400px;
+  padding-top: 100px;
+  padding-left: 200px;
+  width: 90%;
+  background-color: rgb(20, 22, 22);
+  float: left;
+}
+.get_in_touch {
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 10px ;
+  color: #fff;
+}
+.get_in_touch h4{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.twitter h4{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.popular_post h4{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.about_us h4{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.twitter {
+  color: #fff;
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+.popular_post {
+  color: #fff;
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+.about_us {
+  color: #fff;
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.all_reserved {
+  /* padding: 20px; */
+  background-color: rgb(6, 5, 5);
+  color: #fff;
+}
+.all_right{
+ padding-left: 50px;
+
+ color: rgb(251, 254, 254);
+ line-height: 100px;
+}
