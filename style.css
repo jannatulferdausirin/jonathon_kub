@@ -296,7 +296,21 @@ p {
   padding: 20px 10px;
   margin-right: 15px;
 }
-
+.fa-camera{
+  color:rgb(0, 170, 255) ;
+  font-size: 30px;
+  margin-top: -5px;
+}
+.fa-video{
+  color:rgb(0, 170, 255) ;
+  font-size: 30px;
+  margin-top: -5px;
+}
+.fa-paintbrush{
+  color:rgb(0, 170, 255) ;
+  font-size: 30px;
+  margin-top: -5px;
+}
 .photography h4,
 p {
   line-height: 20px;
